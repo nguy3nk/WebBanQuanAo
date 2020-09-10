@@ -1,0 +1,102 @@
+.box-tools .breadcrumb{
+	margin-bottom: 0;
+	padding: 5px;
+	background: none;
+}
+.box-tools .breadcrumb li{
+	margin-right: 15px;
+	float: left
+}
+.box-tools .breadcrumb li a{
+	color: #333
+}
+.content-header > .breadcrumb{
+	padding: 0 7px
+}
+.content .panel-body{
+	padding: 5px
+}
+.table-form .form-inline .input-group>.form-control{
+	width: 300px;
+}
+.panel-pagination .panel-body{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.post-category{
+	padding-left: 0
+}
+.post-category ul{
+	padding-left: 15px
+}
+.btn-social{
+	padding-left: 32px
+}
+.btn-social > :first-child {
+    width: 32px;
+    line-height: 32px;
+    font-size: 16px;
+}
+.table-action a.label{
+	margin-left: 5px
+}
+/* Thêm sản phẩm */
+.them{
+	/*padding: 10px 5%	*/
+}
+.gui{
+	padding: center;
+}
+
+/* Thêm mới ngày 6/4/2018 trường tin tức sản phẩm */
+.img_news{
+	width: 60px;
+	height: 40px;
+}
+/* Đóng thêm tin tức ở đây */
+/*xóa ảnh*/
+.pro_item{
+ 	border: 1px solid #ddd;
+    position: relative;
+    margin-bottom: 20px;
+}
+.sale{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    background: rgba(0,0,0,.6);
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+    cursor: pointer;
+}
+.sale a{
+	display: inline-block;
+	margin: auto;
+	width: 50px;
+    line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	background: #8c8c8c;
+	text-shadow: 2px 0px 2px rgba(0,0,0,.6);
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,.6);
+}
+.pro_item:hover .sale{
+	opacity: 1;
+	visibility: visible;
+}
+
+.nu{
+	padding: 10px 0;
+}
